@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+
+@theme {
+  --font-clash : "Clash Grotesk", sans-serif;
+  --font-geist : "Geist", sans-serif;
+  --font-geist-mono : "Geist Mono", sans-serif;
+
+  --color-black: #0a0a0a;
+  --color-gray:  #6d6d6d;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-geist);
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  h1, h2 {
+    @apply font-clash uppercase font-bold;
+  }
+
+  button {
+    @apply cursor-pointer;
+  }
+}
+
+@layer components {
+  .slide-btn {
+    @apply h-6 md:h-4 w-6 md:w-4 rounded-full transition-all duration-300;
+  }
+}
