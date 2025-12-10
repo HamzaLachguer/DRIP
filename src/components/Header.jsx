@@ -8,7 +8,7 @@ const Header = () => {
         <Clock />
 
         <a className="h-fit w-fit" href="/index.html">
-          <img className="h-3.5" src="./public/logo.svg" alt="DRIP logo mark" />
+          <img className="h-3.5" src="./public/logo.png" alt="DRIP logo mark" />
         </a>
       </div>
 

@@ -11,7 +11,7 @@ const Footer = () => {
           </nav>
         </div>
 
-        <div className="grid md:grid-cols-2 items-start">
+        <div className="grid gap-9 md:grid-cols-2 md:gap-0 items-start">
           <div className="flex flex-col gap-12 leading-tight">
             <p className="text-gray text-xs">Berenstraat 0, 107 GH Berlin</p>
 

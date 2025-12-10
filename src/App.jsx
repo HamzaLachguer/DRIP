@@ -111,7 +111,7 @@ const App = () => {
           </div>
 
           <div className="absolute top-0 left-0 pt-24 lg:pt-48 h-full w-full grid place-items-center">
-            <h2 className="text-center text-white uppercase text-5xl md:text-[65px] lg:text-[78px]">Where Coffee <br /> Meets Craft.</h2>
+            <h2 className="text-center text-white px-5 uppercase text-5xl md:text-[65px] lg:text-[78px]">Where Coffee <br /> Meets Craft.</h2>
           </div>
         </section>
 
